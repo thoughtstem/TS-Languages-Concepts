@@ -1,1 +1,0 @@
-("7.4" racket ("74efcf92922a7cd1b30638ae3443f3cfa71b82ef" . "8c04d94594bddddab82f48875f2ededea53041f6") (collects #"2htdp" #"image.rkt") (collects #"2htdp" #"universe.rkt") (collects #"fundamentals" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))

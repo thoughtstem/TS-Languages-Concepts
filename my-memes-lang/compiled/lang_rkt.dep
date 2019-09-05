@@ -1,1 +1,0 @@
-("7.4" racket ("6f6565e6f228ae0c3d86a132bd07645a088519da" . "582d57da211b675a47db7f468ba8d3a19ccef0fd") (collects #"2htdp" #"image.rkt") (collects #"2htdp" #"universe.rkt") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-memes-lang" #"assets.rkt") (collects #"my-memes-lang" #"lang" #"main.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))

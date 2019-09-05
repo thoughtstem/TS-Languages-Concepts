@@ -1,1 +1,0 @@
-("7.4" racket ("729a58227edb741e1a908901045a2dbb82cae59a" . "3e2813e98b6a6379752a80cfa5d3c17b15716996") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-GIF-lang" #"lang.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"syntax" #"module-reader.rkt"))

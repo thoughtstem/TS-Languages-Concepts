@@ -1,1 +1,0 @@
-("7.4" racket ("af898b9d20106afbc5f69745274e403fc80e7491" . "186ef7d58b72510db45c4a795861c157e9eba50c") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-interview-lang" #"lang.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"syntax" #"module-reader.rkt"))

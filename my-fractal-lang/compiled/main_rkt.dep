@@ -1,1 +1,0 @@
-("7.4" racket ("921d29ef6fb7aa67b7d8701f05f0eb225fefab7e" . "564bdc0a21b53caed2aad0090f5c0d470e119544") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-fractal-lang" #"lang.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"syntax" #"module-reader.rkt"))

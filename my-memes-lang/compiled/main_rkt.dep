@@ -1,1 +1,0 @@
-("7.4" racket ("2d04af5434fa66d57fb059bfb4b4f6d3a210e9ef" . "0ec7ad948bdc2440f35af8df481b108326f3bbc9") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-memes-lang" #"lang.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"syntax" #"module-reader.rkt"))

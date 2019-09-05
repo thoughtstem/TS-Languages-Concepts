@@ -1,1 +1,0 @@
-("7.4" racket ("82463ac74c1c7751abefb5eef743783cca33a90c" . "769093e27c15ba7534ddd09dba3f0f3814a68e82") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-data-sci-lang" #"assets.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"scribble" #"srcdoc.rkt") (collects #"ts-kata-util" #"main.rkt"))

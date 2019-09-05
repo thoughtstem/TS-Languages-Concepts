@@ -1,1 +1,0 @@
-("7.4" racket ("6f6565e6f228ae0c3d86a132bd07645a088519da" . "638a017cb405b8da5aaaa5f76dc6f2fd1ec27747") (collects #"2htdp" #"image.rkt") (collects #"2htdp" #"universe.rkt") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-game-lang" #"assets.rkt") (collects #"my-game-lang" #"lang" #"main.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
