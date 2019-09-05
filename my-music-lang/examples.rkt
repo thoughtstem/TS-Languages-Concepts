@@ -2,7 +2,7 @@
 
 (require ts-kata-util)
 
-(define-example-code Summer2019/Languages/my-music-lang/main all-star
+(define-example-code my-music-lang/main all-star
 
 (define d click-1)
 
