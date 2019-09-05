@@ -7,7 +7,7 @@
 ; Kata1: Make an eye from an outlined circle with a smaller solid black circle
 ; inside of it (the pupil). Make the eyes rotate counterclockwise over time.
 
-(define-example-code Summer2019/Languages/my-game-lang/main 001-rotating-eye
+(define-example-code my-game-lang/main 001-rotating-eye
 
   ; TO-DRAW
   (define (create-rotating-eye angle)
@@ -23,7 +23,7 @@
 
 ; Kata2: Make an eye with a pupil that rotates when the mouse is pressed in the window.
 
-(define-example-code Summer2019/Languages/my-game-lang/main 002-rotating-eye
+(define-example-code my-game-lang/main 002-rotating-eye
   
   ; TO-DRAW
   (define (create-rotating-eye angle)
@@ -47,7 +47,7 @@
 ; Hint: Use the distance formula! The center of the eye is located at 30 30.
 ; The radius of the eye is 30.
 
-(define-example-code Summer2019/Languages/my-game-lang/main 003-rotating-eye
+(define-example-code my-game-lang/main 003-rotating-eye
   
   ; TO-DRAW
   (define (create-rotating-eye angle)
@@ -81,7 +81,7 @@
 ; you can find the angle between them. Use (atan y x), and remember that the signs of
 ; x and y matter!
 
-(define-example-code Summer2019/Languages/my-game-lang/main 004-rotating-eye
+(define-example-code my-game-lang/main 004-rotating-eye
   ; TO-DRAW
   (define (create-rotating-eye angle)
     (place-image (rotate angle eye)
@@ -107,7 +107,7 @@
     (on-mouse mouse-handler)))
 
 
-(define-example-code Summer2019/Languages/my-game-lang/main 005-rotating-eye
+(define-example-code my-game-lang/main 005-rotating-eye
   ;Kata 5: Make an eye with pupils that follow the location of your mouse.
   ;When you click the eye, make the entire eye area turn black, as if blinking.
 
@@ -168,7 +168,7 @@
 ;ability to control wherever your eye appears in the window.
 ;Ex: Draw an eye 30 units right and 40 units below the center.
 
-(define-example-code Summer2019/Languages/my-game-lang/main 006-rotating-eye
+(define-example-code my-game-lang/main 006-rotating-eye
 
   ; Defines one animated eye, distance adjusts the eye away from the center.
   (define (animated-eye x-distance y-distance)
@@ -235,7 +235,7 @@
 ; Kata1: Make a plane at the bottom of the window that moves left and right
 ; Use the plane.png image in this folder
 
-(define-example-code Summer2019/Languages/my-game-lang/main 001-plane-game
+(define-example-code my-game-lang/main 001-plane-game
   (define IMAGEWIDTH 100)
 
   ; TO-DRAW
@@ -262,7 +262,7 @@
 ; This kata teaches the usage of structs (in structs) and adding things to lists
 ; Extra Challenge - Using ticks, make a new square at a different position every 4 ticks
 
-(define-example-code Summer2019/Languages/my-game-lang/main 002-plane-game
+(define-example-code my-game-lang/main 002-plane-game
   (define IMAGEWIDTH 100)
 
   ; Our structs
@@ -323,7 +323,7 @@
 ; Our bullet is a solid rect that is longer vertically than horizontally is colored gold.
 ; Resetting the tick is recommended.
 
-(define-example-code Summer2019/Languages/my-game-lang/main 003-plane-game
+(define-example-code my-game-lang/main 003-plane-game
   (define IMAGEWIDTH 100)
 
   (struct bullet(tick shoot) #:transparent #:mutable)
@@ -368,7 +368,7 @@
 ;==== Rectangle Game ===
 
 ;Kata 1: Draw a red rectangle
-(define-example-code Summer2019/Languages/my-game-lang/main 001-rectangle-game
+(define-example-code my-game-lang/main 001-rectangle-game
   ;A rectangle is drawn at position (100,100) in a 200 by 200 frame.
   (define (my-rectangle state)
     (place-image rect 100 100
@@ -385,7 +385,7 @@
     (to-draw my-rectangle)))
 
 ;Kata 2: Draw a spinning rectangle
-(define-example-code Summer2019/Languages/my-game-lang/main 002-rectangle-game
+(define-example-code my-game-lang/main 002-rectangle-game
   ;spinning-rectangle rotates the rectangle by theta. It is drawn at position (100,100) in a 200 by 200 frame.
   (define (spinning-rectangle theta)
     (place-image (rotate theta rect)100 100
@@ -404,7 +404,7 @@
   )
 
 ;Kata 3: Create a rectangle whose color changes between red and green intermittently
-(define-example-code Summer2019/Languages/my-game-lang/main 003-rectangle-game
+(define-example-code my-game-lang/main 003-rectangle-game
   ;defines a boolean to determine the color
   (define rectColor #t)
 
@@ -429,7 +429,7 @@
     (to-draw color-rectangle 200 200)))
 
 ;Kata 4: Create a spinning rectangle that bounces back and forth
-(define-example-code Summer2019/Languages/my-game-lang/main 004-rectangle-game
+(define-example-code my-game-lang/main 004-rectangle-game
   ;Which way the rectangle is moving. True means going to the right.
   (define direction #t)
 
@@ -456,7 +456,7 @@
     (to-draw spinning-rectangle 200 200)))
 
 ;Kata 5: Create a spinning rectangle that bounces back and forth and changes colors intermittently.
-(define-example-code Summer2019/Languages/my-game-lang/main 005-rectangle-game
+(define-example-code my-game-lang/main 005-rectangle-game
   ;defines a boolean to determine the color
   (define rectColor #t)
 
@@ -492,7 +492,7 @@
 
 ;==== Art Game ===
 ;Kata 1: Draw a purple pulled polygon
-(define-example-code Summer2019/Languages/my-game-lang/main 001-art-game
+(define-example-code my-game-lang/main 001-art-game
   ;A rectangle is drawn at position (100,100) in a 200 by 200 frame.
   (define (my-rectangle state)
     (place-image poly 100 100
@@ -509,7 +509,7 @@
     (to-draw my-rectangle)))
 
 ;Kata 2: Draw stars in a night sky
-(define-example-code Summer2019/Languages/my-game-lang/main 002-art-game
+(define-example-code my-game-lang/main 002-art-game
   ;define the golden star shape that accepts size as an input
   (define (myStar size)
     (star size 'solid 'gold))
@@ -529,7 +529,7 @@
   )
 
 ;Kata3: Make a program that draws a sky with a sun when the mouse isn't being pressed, and a night sky with stars and a moon when it is being pressed.
-(define-example-code Summer2019/Languages/my-game-lang/main 003-art-game
+(define-example-code my-game-lang/main 003-art-game
   ;myStar takes the size of the star and returns a gold star shape of that size
   (define (myStar size)
     (star size 'solid 'gold))
@@ -562,7 +562,7 @@
 
 
 ;Kata4: Create a rectangle that follows a mouse.
-(define-example-code Summer2019/Languages/my-game-lang/main 004-art-game
+(define-example-code my-game-lang/main 004-art-game
   ;Rectangle follows mouse.
 
   ;Starting x and y position
@@ -592,7 +592,7 @@
 
 ;Kata 5: Make a rectangle that moves with your mouse when you click and drag on it.
 
-(define-example-code Summer2019/Languages/my-game-lang/main 005-art-game
+(define-example-code my-game-lang/main 005-art-game
   ;This kata builds upon kata 4 of art games
 
   ;Starting x and y position
@@ -634,7 +634,7 @@
 
 
 ;Kata6 Use your mouse to draw.
-(define-example-code Summer2019/Languages/my-game-lang/main 006-art-game
+(define-example-code my-game-lang/main 006-art-game
   ;this defines the red circle that will be used for a brush stroke
   (define brush
     (circle 5 'solid 'red))
@@ -671,7 +671,7 @@
 
 
 ;Kata 7: Have the mouse only draw when it's being pressed.
-(define-example-code Summer2019/Languages/my-game-lang/main 007-art-game
+(define-example-code my-game-lang/main 007-art-game
   ;this defines the red circle that will be used for a brush stroke
   (define brush
     (circle 5 'solid 'red))
@@ -711,7 +711,7 @@
 
 ; Kata1: Make two constants, upper and lower and set them to 100 and 1 respectively. Run them to make sure they work.
 
-(define-example-code Summer2019/Languages/my-game-lang/main 001-number-game
+(define-example-code my-game-lang/main 001-number-game
 
   (define lower 1)
 
@@ -722,7 +722,7 @@
 ; Kata2: Implement four functions (three functional ones and one 'winning' function) that allow the computer to guess a number that the user picks,
 ;in the range of 1- 100. One should be for if the guess is higher, one for if the guess is lower, and one for generating and printing the next guess
 
-(define-example-code Summer2019/Languages/my-game-lang/main 002-number-game
+(define-example-code my-game-lang/main 002-number-game
 
   (define lower 1)
 
@@ -746,7 +746,7 @@
   (yes))
 
 ; Kata3: Add a main function that explains the rules and how to call functions to the player, initialises upper and lower, and starts the game
-(define-example-code Summer2019/Languages/my-game-lang/main 003-number-game
+(define-example-code my-game-lang/main 003-number-game
   (define lower 1)
 
   (define upper 100)
@@ -779,7 +779,7 @@
 
   (main lower upper))
 
-(define-example-code Summer2019/Languages/my-game-lang/main 001-click-game
+(define-example-code my-game-lang/main 001-click-game
   ;create a square that spans in a random location 
   (define (random-range a b)
     (+ a (random (+ 1 (- b a)))))
@@ -799,7 +799,7 @@
   (big-bang 0
     (to-draw create-red-square)))
 
-(define-example-code Summer2019/Languages/my-game-lang/main 002-click-game
+(define-example-code my-game-lang/main 002-click-game
   ;create a red square in a random location that turns white when you click on it
   ;helper function
   (define (random-range a b)
@@ -850,7 +850,7 @@
 
 ; Kata1: Make a green square to represent the snake
 
-(define-example-code Summer2019/Languages/my-game-lang/main 001-snake-game
+(define-example-code my-game-lang/main 001-snake-game
 
   (define (create-snake time)
     (place-image (square 30 "solid" "green")
@@ -863,7 +863,7 @@
 
 ; Kata2: Make a green square that moves automatically from left to right
 
-(define-example-code Summer2019/Languages/my-game-lang/main 002-snake-game
+(define-example-code my-game-lang/main 002-snake-game
 
   (define direction #t)
 
@@ -887,7 +887,7 @@
 
 ; Kata 3 Making the green snake move in all directions
 
-(define-example-code Summer2019/Languages/my-game-lang/main 003-snake-game
+(define-example-code my-game-lang/main 003-snake-game
 
   (struct posn (x y))
   (struct snake (dir posn))
