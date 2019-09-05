@@ -3,7 +3,7 @@
 (require ts-kata-util)
 
 ;Add virtual reality katas in this file. Format:
-; (define-example-code Summer2019/Languages/my-vr-lang/main identifier
+; (define-example-code my-vr-lang/main identifier
 ;			[YOUR CODE]) 
 
 ;==== VR Examples
@@ -11,7 +11,7 @@
 ;VR Beginner Examples
 
 ;Write a function that produces a blue box on a black background.
-(define-example-code Summer2019/Languages/my-vr-lang/main shapes~box-001
+(define-example-code my-vr-lang/main shapes~box-001
  
   (define my-scene
     (scene
@@ -26,7 +26,7 @@
   (send-to-browser my-scene))
 
 ;Code a scene with a sphere
-(define-example-code Summer2019/Languages/my-vr-lang/main shapes~sphere-002
+(define-example-code my-vr-lang/main shapes~sphere-002
 
   (define my-scene
     (scene
@@ -40,7 +40,7 @@
   (send-to-browser my-scene))
 
 ;Code a scene with a large cylinder
-(define-example-code Summer2019/Languages/my-vr-lang/main shapes~size-003
+(define-example-code my-vr-lang/main shapes~size-003
 
   (define my-scene
     (scene
@@ -55,7 +55,7 @@
   (send-to-browser my-scene))
 
 ;Create a scene with a white sphere on a light blue background.
-(define-example-code Summer2019/Languages/my-vr-lang/main shapes~snowman-001
+(define-example-code my-vr-lang/main shapes~snowman-001
   
   (define (my-sphere)
     (sphere
@@ -73,7 +73,7 @@
   (send-to-browser my-scene))
 
 ;Create a scene with a snowman on a light blue background.
-(define-example-code Summer2019/Languages/my-vr-lang/main shapes~snowman-002
+(define-example-code my-vr-lang/main shapes~snowman-002
 
   (define (my-snowman n)
     (sphere
@@ -93,7 +93,7 @@
   (send-to-browser my-scene))
 
 ;Create a scene with a snowman and tree on a light blue background.
-(define-example-code Summer2019/Languages/my-vr-lang/main shapes~snowman-003
+(define-example-code my-vr-lang/main shapes~snowman-003
  
   (define (my-snowman n)
     (sphere
@@ -133,7 +133,7 @@
 
 
 ;Create a scene with a snowman and tree on a light blue background with snow.
-(define-example-code Summer2019/Languages/my-vr-lang/main shapes~snowman-004
+(define-example-code my-vr-lang/main shapes~snowman-004
   
   ;Here we declare the star-system component
 
