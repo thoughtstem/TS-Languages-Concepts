@@ -1,0 +1,1 @@
+("7.4" racket ("ef3e0ca50ef1fb34c1dcd0da8c6c7cc2efd3da27" . "7e8b88d16d1e6a01ed6c3009f3c25d594ee7cf6e") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-data-sci-lang" #"lang.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"syntax" #"module-reader.rkt"))

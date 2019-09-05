@@ -1,0 +1,1 @@
+("7.4" racket ("774b4973172b86aaa38e664aac1f61e886b9204a" . "ebc7ad183c81ba676580ecf0640205d46279b61d") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-music-lang" #"lang" #"main.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"rsound" #"main.rkt") (collects #"rsound" #"piano-tones.rkt"))

@@ -1,0 +1,1 @@
+("7.4" racket ("bb419645e1937fe3c1a266652cef4da52e28ce29" . "f8b2b8ed5d59b43572b32c319eabd81e0cd03ba8") (collects #"my-fundamentals-lang" #"main.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"ts-kata-util" #"main.rkt"))

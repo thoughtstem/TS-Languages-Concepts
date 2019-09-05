@@ -1,0 +1,1 @@
+("7.4" racket ("569d85a1a19752e7fd441974a24a440b1ba3f936" . "7a8ddf556175cb47edcf67790ae504e4e2958d81") (collects #"2htdp" #"image.rkt") (collects #"2htdp" #"universe.rkt") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-fractal-lang" #"assets.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"ts-kata-util" #"main.rkt"))

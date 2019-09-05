@@ -1,0 +1,1 @@
+("7.4" racket ("bca4c9f839846d37a4ca8fdff4ae0dc15439d6c9" . "80617a2ea98c186f7c2956fdb0ad7545ab11188c") (collects #"at-exp" #"lang" #"reader.rkt") (collects #"my-vr-lang" #"lang" #"main.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"vr-lang" #"main.rkt"))
