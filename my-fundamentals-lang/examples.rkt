@@ -3,10 +3,10 @@
 (require ts-kata-util)
 
 
-(define-example-code Summer2019/Languages/my-fundamentals-lang/main superset-lang-demo
+(define-example-code my-fundamentals-lang/main superset-lang-demo
    (face))
 
-(define-example-code Summer2019/Languages/my-fundamentals-lang/main superset-lang-demo-2
+(define-example-code my-fundamentals-lang/main superset-lang-demo-2
   (define (spin-face r)
     (rotate r (face)))
 
@@ -210,7 +210,7 @@
 ;@bold{EASY} - Make a snowman with 3 circles
 
 
-(define-example-code Summer2019/Languages/my-fundamentals-lang/main 019-snowman-simple
+(define-example-code my-fundamentals-lang/main 019-snowman-simple
   
   (define snowman
       (above (circle 20 "solid" "blue")
@@ -220,7 +220,7 @@
   snowman)
 
 
-(define-example-code Summer2019/Languages/my-fundamentals-lang/main 020-snowman-detailed
+(define-example-code my-fundamentals-lang/main 020-snowman-detailed
   
 (define head
   (circle 20 "solid" "blue"))
@@ -249,7 +249,7 @@
 detailed-snowman)
 
 
-(define-example-code Summer2019/Languages/my-fundamentals-lang/main 021-snowman-animated-left
+(define-example-code my-fundamentals-lang/main 021-snowman-animated-left
   
 (define snowman
       (above (circle 20 "solid" "blue")
@@ -268,7 +268,7 @@ detailed-snowman)
  (to-draw draw-shape)))
 
 
-(define-example-code Summer2019/Languages/my-fundamentals-lang/main 022-snowman-animated-right
+(define-example-code my-fundamentals-lang/main 022-snowman-animated-right
 
   (define snowman
       (above (circle 20 "solid" "blue")
@@ -287,7 +287,7 @@ detailed-snowman)
  (to-draw draw-shape)))
   
   
-(define-example-code Summer2019/Languages/my-fundamentals-lang/main 023-snowman-jumping
+(define-example-code my-fundamentals-lang/main 023-snowman-jumping
 (define (head num)
   (circle 20 "solid" (fade-color num)))
 (define (torso num)
