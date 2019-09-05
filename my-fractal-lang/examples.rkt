@@ -3,14 +3,14 @@
 (require ts-kata-util)
 
 ;Add fractals katas in this file. Format:
-; (define-example-code Summer2019/Languages/my-fractal-lang/main identifier
+; (define-example-code my-fractal-lang/main identifier
 ;			[YOUR CODE])
 
 ;Fractals Kata Examples: Still Images with Shapes
 
 ;Easy: Fractal using circles that decrease in size
 
-(define-example-code Summer2019/Languages/my-fractal-lang/main 001-medium
+(define-example-code my-fractal-lang/main 001-medium
 ;Sierpinski carpet fractal
 (define (sierpinski-carpet n)
     (cond
@@ -23,7 +23,7 @@
                 (beside c c c)))]))
   (sierpinski-carpet 5))
 
-(define-example-code Summer2019/Languages/my-fractal-lang/main 001-easy
+(define-example-code my-fractal-lang/main 001-easy
 ;Sierpinski triangle fractal
 (let sierpinski ([n 8])
   (if (zero? n)
@@ -33,7 +33,7 @@
 
 
 ;This is the first step to building the Koch snowflake.
-(define-example-code Summer2019/Languages/my-fractal-lang/main 002-medium
+(define-example-code my-fractal-lang/main 002-medium
   (define (koch-curve n)
     (cond
       [(zero? n) (square 1 "solid" "black")]
@@ -47,7 +47,7 @@
   (koch-curve 1))
 
 
-(define-example-code Summer2019/Languages/my-fractal-lang/main 002-easy
+(define-example-code my-fractal-lang/main 002-easy
 ;This is the second step to building the Koch snowflake.
   (define (koch-curve n)
     (cond
