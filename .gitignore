@@ -1,4 +1,5 @@
 .DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
+# ignore racket-generated compile folders
+compiled/
+# ignore backup files
+*.bak
