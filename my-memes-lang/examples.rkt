@@ -326,7 +326,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 ;GIF 1: Create the function that will iterate through the file paths in order to make
 ;the world look as if it is spinning.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 001-gifs-e
+(define-example-code my-GIF-lang/main 001-gifs-e
 
   (define (make-file-path number)
   ((compose (curryr string-append ".png") ;concatenates the string to be the file path,
@@ -335,7 +335,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 2: Create a gudetama that rotates on itself atop a yellow background
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 002-gifs-e
+(define-example-code my-GIF-lang/main 002-gifs-e
 
 (define gudetama-image (rotate 45 (bitmap "gudetama.png")))
 (define my-rectangle (rectangle 400 400 "solid" "yellow"))
@@ -349,7 +349,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 3: Create the function that places "Hello" over the World GIF.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 003-gifs-m
+(define-example-code my-GIF-lang/main 003-gifs-m
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")
@@ -364,7 +364,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 4: Create a GIF that has 9 gudetamas rotating atop a yellow background
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 004-gifs-m
+(define-example-code my-GIF-lang/main 004-gifs-m
 
 (define my-rectangle (rectangle 300 300 "solid" "yellow"))
 
@@ -398,7 +398,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 5: Write the code that puts it all together (iterating through the images while keeping the text).
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 005-gifs-h
+(define-example-code my-GIF-lang/main 005-gifs-h
 
   (define (make-file-path number)
   ((compose (curryr string-append ".png")
@@ -414,7 +414,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
   (to-draw make-images))) ;every tick of big-bang draws the next image
 
 ;GIF 6: Make a nyan cat gif
-(define-example-code Summer2019/Languages/my-GIF-lang/main 006-gifs-e
+(define-example-code my-GIF-lang/main 006-gifs-e
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")
@@ -424,7 +424,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 
 ;GIF 7: Make a nyan cat gif with text below
-(define-example-code Summer2019/Languages/my-GIF-lang/main 007-gifs-e
+(define-example-code my-GIF-lang/main 007-gifs-e
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")
@@ -444,7 +444,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 ;GIF 8: Create the function that will iterate through various images in the assets folder
 ;to create a GIF of a tesseract.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 008-gifs-e
+(define-example-code my-GIF-lang/main 008-gifs-e
 
   (define (make-file-path number)
   ((compose (curryr string-append ".png") ;concatenates the string to be the file path,
@@ -453,7 +453,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 9: Create the function that places some text over the Tesseract GIF.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 009-gifs-m
+(define-example-code my-GIF-lang/main 009-gifs-m
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")
