@@ -1,6 +1,7 @@
 #lang racket
 
 (require ts-kata-util)
+(require rsound) 
 
 (define-example-code my-music-lang/main all-star
 
@@ -185,5 +186,5 @@
     ;(beat-track 20)
     )))
 
-  )
+  main)
 
